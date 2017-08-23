@@ -12,6 +12,7 @@
 		E2D0FCFC1F4C2AA900E88AF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D0FCFA1F4C2AA900E88AF7 /* Main.storyboard */; };
 		E2D0FCFE1F4C2AA900E88AF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2D0FCFD1F4C2AA900E88AF7 /* Assets.xcassets */; };
 		E2D0FD011F4C2AA900E88AF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D0FCFF1F4C2AA900E88AF7 /* LaunchScreen.storyboard */; };
+		E2D0FD091F4C2D2000E88AF7 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0FD081F4C2D2000E88AF7 /* DrawView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E2D0FCFD1F4C2AA900E88AF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2D0FD001F4C2AA900E88AF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2D0FD021F4C2AA900E88AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2D0FD081F4C2D2000E88AF7 /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				E2D0FCF61F4C2AA900E88AF7 /* AppDelegate.swift */,
 				E2D0FCF81F4C2AA900E88AF7 /* ViewController.swift */,
+				E2D0FD081F4C2D2000E88AF7 /* DrawView.swift */,
 				E2D0FCFA1F4C2AA900E88AF7 /* Main.storyboard */,
 				E2D0FCFD1F4C2AA900E88AF7 /* Assets.xcassets */,
 				E2D0FCFF1F4C2AA900E88AF7 /* LaunchScreen.storyboard */,
@@ -96,7 +99,7 @@
 				TargetAttributes = {
 					E2D0FCF21F4C2AA900E88AF7 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = CWT6FLBDWF;
+						DevelopmentTeam = 2Z7NL663JA;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,6 +142,7 @@
 			files = (
 				E2D0FCF91F4C2AA900E88AF7 /* ViewController.swift in Sources */,
 				E2D0FCF71F4C2AA900E88AF7 /* AppDelegate.swift in Sources */,
+				E2D0FD091F4C2D2000E88AF7 /* DrawView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = CWT6FLBDWF;
+				DEVELOPMENT_TEAM = 2Z7NL663JA;
 				INFOPLIST_FILE = WhiteBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.himin.WhiteBoard;
@@ -274,7 +278,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = CWT6FLBDWF;
+				DEVELOPMENT_TEAM = 2Z7NL663JA;
 				INFOPLIST_FILE = WhiteBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.himin.WhiteBoard;
@@ -302,6 +306,7 @@
 				E2D0FD071F4C2AA900E88AF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

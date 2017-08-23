@@ -9,10 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var drawView: DrawView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        drawView = DrawView()
+        drawView.backgroundColor = UIColor.white
+        drawView.frame = view.bounds
+        view.addSubview(drawView)
+        
     }
 
     override func didReceiveMemoryWarning() {
